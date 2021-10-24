@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-gifs-page',
@@ -6,11 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   ]
 })
-export class GifsPageComponent implements OnInit {
+export class GifsPageComponent  {
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }
